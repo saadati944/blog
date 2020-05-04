@@ -24,6 +24,8 @@ body{
     height: 45px;
 }
 .content{
+    display:block;
+    width:70%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -39,4 +41,10 @@ body{
     border-radius: 25px;
     left: 20px;
     bottom: -55px;
+}
+.aside{
+    display:block;
+    position:absolute;
+    left:75%;
+    width : 25%;
 }
