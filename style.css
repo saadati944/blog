@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     min-width: 640px;
 }
@@ -25,11 +29,14 @@ body{
 }
 #btngoup{
     display: block;
+    transition: 0.5s;
     background-color: rgb(132, 0, 255);
+    color: white;
+    font-size: x-large;
     position: fixed;
     width: 50px;
     height: 50px;
     border-radius: 25px;
     left: 20px;
-    bottom: 20px;
+    bottom: -55px;
 }
